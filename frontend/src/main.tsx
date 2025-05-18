@@ -1,8 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
+import Routing from './routes'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1>Hello world!</h1>
+    <Routing />
   </StrictMode>,
 )
